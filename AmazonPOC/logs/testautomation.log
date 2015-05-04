@@ -1,0 +1,4 @@
+11:24:46,765 ERROR [SoftAssertor] URL did not matched expected [https://www.google.com] but found [https://www.amazon.com/ap/signin]
+11:24:46,767 INFO  [BaseTest] >.>.>.>.>.>.>.>.>.>.>.>.> Ending method 2::testSignIn>.>.>.>.>.>.>.>.>.>.>.>.>Time Taken ::9 Seconds
+11:24:47,495 INFO  [SuiteListener] Suite Name :Chrome Suite - End
+11:24:47,495 INFO  [SuiteListener] ********Results*******
