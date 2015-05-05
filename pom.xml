@@ -12,8 +12,12 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Sonar -->
-    <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.itReportPath>
+		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+    <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
     <sonar.language>java</sonar.language>
+    <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.itReportPath>
+  
     <sonar.language>java</sonar.language>
 	</properties>
 
